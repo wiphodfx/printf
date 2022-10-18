@@ -24,7 +24,7 @@ int prinlhex(va_list arguments, char *buf, unsigned int ibuf)
 		int_input = (int_input * -1) - 1;
 		isnegative = 1;
 	}
-	
+
 	binary = malloc(sizeof(char) * (64 + 1));
 	binary = fill_binary_array(binary, int_input, isnegative, 64);
 	hexadecimal = malloc(sizeof(char) * (16 + 1));
