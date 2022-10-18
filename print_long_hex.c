@@ -3,7 +3,7 @@
 /**
  * prinlhex - prints a long decimal in hexadecimal
  * @arguments: input string
- * v
+ * @buf: char pointer
  * @ibuf: index for buffer pointer
  * Return: number of chars printed
  */
